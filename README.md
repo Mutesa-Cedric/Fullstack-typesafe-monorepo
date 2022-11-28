@@ -10,7 +10,7 @@ This turborepo uses [Yarn](https://classic.yarnpkg.com/lang/en/) as a package ma
 - `api`: a [NestJS](https://nestjs.com/) app
 - `web`: a [Next.js](https://nextjs.org) app
 - `ui`: a stub React component library used by `web`.
-- `config`: `eslint`, `nginx` and `tailwind` (includes `eslint-config-next` and `eslint-config-prettier`)
+- `config`: `eslint` and `tailwind` (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
