@@ -46,6 +46,10 @@ module.exports = {
         api: "cd out && npm run build",
       },
     },
-    dev: "npx turbo run dev",
+    dev: {
+      default: "npx turbo run dev",
+      web: "npx turbo run dev --scope=\"web\"",
+      api: "npx turbo run dev --scope=\"api\"",
+    }
   },
 };

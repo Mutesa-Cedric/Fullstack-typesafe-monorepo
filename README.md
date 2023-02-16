@@ -56,6 +56,17 @@ nps dev
 ```
 The app should be running at `http://localhost` with reverse proxy configured.
 
+For running only a specific app, run the following command at the root of project:
+
+```
+nps dev.<app-name>
+```
+
+example: `nps dev.api` will run only the api app.
+
+
+for more details on how to use turborepo, please refer to [turborepo](https://turbo.build/repo)
+
 
 ## Other available commands
 Run `nps` in the terminal to see list of all available commands. 
