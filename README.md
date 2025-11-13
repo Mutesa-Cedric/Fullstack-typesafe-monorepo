@@ -3,7 +3,7 @@
 
 ## What's inside?
 
-This turborepo uses [Yarn](https://classic.yarnpkg.com/lang/en/) as a package manager. It includes the following packages/apps:
+This turborepo uses [pnpm](https://pnpm.io/) as a package manager. It includes the following packages/apps:
 
 ### Apps and Packages
 
@@ -25,7 +25,7 @@ This turborepo has some additional tools already setup for you:
 - [Prettier](https://prettier.io) for code formatting
 
 ## Setup
-This starter kit is using turborepo and yarn workspaces for monorepo workflow.
+This starter kit is using turborepo and pnpm workspaces for monorepo workflow.
 
 ### Prerequisites 
 - Install nps by running 
